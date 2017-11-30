@@ -1,0 +1,109 @@
+body {
+    margin: auto;
+    /*font-family: 'Muli', sans-serif;*/
+    font-family: 'Cousine', monospace;
+    font-size: 12px;
+    color: #58595B;
+    background-color: #e8e8e8;
+    align-items: center;
+}
+
+button {
+    background-color: white;
+    background-repeat:no-repeat;
+    border-style: solid;
+    border-color: #6D6E71;
+    border-width: thin;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    /*font-family: 'Muli', sans-serif;*/
+    font-family: 'Cousine', monospace;
+    font-size: 9px;
+    color: #6D6E71;
+    margin: 16px;
+    align-self: center;
+}
+
+h2 {
+    /*font-family: 'Muli', sans-serif;*/
+    font-family: 'Cousine', monospace;
+    font-size: 22px;
+    font-weight: bold;
+    color: #58595B;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    letter-spacing: 2px;
+}
+
+
+.container > div {
+  display:inline-block;
+  zoom: .9; /* Trigger hasLayout */
+  width: 45%;
+  min-width: 260px;
+  padding-top: 50px;
+  padding-bottom: 40px;
+  padding-left: auto;
+  padding-right: auto;
+  background-color: #e8e8e8;
+  text-align: left;
+  vertical-align: middle;
+}
+
+
+.item > div{
+  display: inline-block;
+  vertical-align: middle;
+  zoom: 1; /* Trigger hasLayout */
+  width: 95%;
+  padding: 10px;
+  text-align:left;
+  padding-top: auto;
+  padding-bottom: auto;
+}
+
+#sketchHolder{
+  vertical-align: middle;
+  padding-top: auto;
+  padding-bottom: auto;
+}
+
+#slidecontainer {
+    width: 100%;
+}
+
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 9px;
+    border-radius: 0px;
+    background: white;
+    outline: none;
+    opacity: 0.5;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: #6D6E71;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: #6D6E71;
+    cursor: pointer;
+}
